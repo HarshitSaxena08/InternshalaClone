@@ -1,0 +1,33 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+	width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    color: #000;
+
+}
+
+.logo{
+    width: 120px;
+    height: 15px;
+}
+.menu ul{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+    margin-right: 15px;
+    align-self: center;
+    font: 1em sans-serif;
+
+}
